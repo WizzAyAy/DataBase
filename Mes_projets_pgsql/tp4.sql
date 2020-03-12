@@ -105,6 +105,9 @@ INSERT INTO eleveur VALUES
 	(1, (SELECT e FROM elevage e WHERE animal='volaille'), (SELECT a FROM adresse a WHERE ville='Paris'));
 SELECT * FROM eleveur;
 
+--Exercice 2--
+
+
 
 
 

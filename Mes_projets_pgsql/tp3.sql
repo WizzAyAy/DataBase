@@ -255,8 +255,7 @@ BEGIN
 	for i in curs
 	LOOP
 		if(i.numens != num) then 
-		return next i.nomens;
-		return next i.prenomens;
+		return next (i.prenomens, i.nomens);
 		end if;	
 	END LOOP;
 	return;
